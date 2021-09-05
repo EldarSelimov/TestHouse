@@ -15,7 +15,7 @@ class PhotoCell: UICollectionViewCell {
     private let photoImageVIew: UIImageView = {
        let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.backgroundColor = .green
+        
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
